@@ -10,6 +10,7 @@ from genai_stack.retriever import LangChainRetriever
 from genai_stack.memory.langchain import ConversationBufferMemory
 import os
 
+#app run
 app = Flask(__name__)
 container = ['Document-GPT']
 retriever = None
